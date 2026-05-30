@@ -1,0 +1,65 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit and local runtime state
+.streamlit/
+logs/
+*.log
+
+# Local databases and generated indexes
+my_chroma_db/
+chroma/
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Uploaded, parsed, cached, and generated document data
+data/
+parsed_doc.html
+section_summary_cache.json
+
+# Local ML models and heavy model caches
+models/
+Ultralytics/
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.bin
+*.gguf
+
+# Generated reports/artifacts
+reports/
+exports/
+artifacts/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
